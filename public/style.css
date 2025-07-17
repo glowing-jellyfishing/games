@@ -1,0 +1,178 @@
+/* Auth pages */
+.auth-container {
+    max-width: 350px;
+    margin: 4rem auto;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+    padding: 2rem 2.5rem 1.5rem 2.5rem;
+    text-align: center;
+}
+.auth-container h2 {
+    margin-bottom: 1.5rem;
+}
+.auth-container form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.auth-container input {
+    padding: 0.7rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+.auth-container button {
+    background: #e2231a;
+    color: #fff;
+    border: none;
+    padding: 0.7rem;
+    border-radius: 4px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 0.5rem;
+    transition: background 0.2s;
+}
+.auth-container button:hover {
+    background: #b71c13;
+}
+.auth-container p {
+    margin-top: 1rem;
+    font-size: 0.97rem;
+}
+.auth-container a {
+    color: #e2231a;
+    text-decoration: none;
+}
+.auth-container a:hover {
+    text-decoration: underline;
+}
+.error-message {
+    color: #e2231a;
+    margin-top: 0.7rem;
+    min-height: 1.2em;
+    font-size: 0.98rem;
+}
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: #e3e3e3;
+    color: #222;
+}
+header {
+    background: #232527;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 2rem;
+    height: 64px;
+}
+.logo {
+    font-size: 2rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: #e2231a;
+}
+nav {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.2s;
+}
+nav a:hover {
+    color: #e2231a;
+}
+nav button {
+    background: #e2231a;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-left: 1rem;
+}
+.hero {
+    background: linear-gradient(90deg, #e2231a 0%, #232527 100%);
+    color: #fff;
+    padding: 3rem 2rem;
+    text-align: center;
+}
+.hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+.hero button {
+    background: #fff;
+    color: #e2231a;
+    border: none;
+    padding: 0.75rem 2rem;
+    border-radius: 4px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.2s, color 0.2s;
+}
+.hero button:hover {
+    background: #e2231a;
+    color: #fff;
+}
+.games {
+    padding: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.games h2 {
+    margin-bottom: 1.5rem;
+}
+.game-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 1.5rem;
+}
+.game-card {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+    overflow: hidden;
+    transition: transform 0.2s;
+}
+.game-card:hover {
+    transform: translateY(-5px) scale(1.03);
+}
+.game-thumb {
+    width: 100%;
+    height: 140px;
+    object-fit: cover;
+    background: #ccc;
+}
+.game-info {
+    padding: 1rem;
+}
+.game-title {
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+.game-creator {
+    color: #888;
+    font-size: 0.95rem;
+}
+footer {
+    background: #232527;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 2rem;
+}
